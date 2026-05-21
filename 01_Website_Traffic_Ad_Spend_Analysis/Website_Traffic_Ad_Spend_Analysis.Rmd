@@ -14,7 +14,7 @@ library(ggplot2)
 
 
 ```{r import-data}
-website_data <- read.csv("~/Desktop/FML - Assignments & Work/final_website_stats.csv")
+website_data <- read.csv("final_website_stats.csv")
 ```
 
 

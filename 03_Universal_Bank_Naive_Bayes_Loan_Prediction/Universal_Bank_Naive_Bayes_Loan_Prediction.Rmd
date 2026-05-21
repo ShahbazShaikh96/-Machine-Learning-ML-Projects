@@ -20,7 +20,7 @@ library(e1071)
 
 # Data Preparation
 ```{r}
-UB <- read.csv("/Users/shahbazshaikh/Downloads/UniversalBank.csv")
+UB <- read.csv("UniversalBank.csv")
 head(UB)
 
 UB <- UB %>% select(Online, CCAvg, Personal.Loan) %>%

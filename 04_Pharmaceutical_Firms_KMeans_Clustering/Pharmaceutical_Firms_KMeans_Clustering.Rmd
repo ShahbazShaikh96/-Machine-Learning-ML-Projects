@@ -22,7 +22,7 @@ library(knitr)
 # Loading Data
 
 ```{r}
-pharma <- read.csv("/Users/shahbazshaikh/Downloads/Pharmaceuticals.csv")
+pharma <- read.csv("Pharmaceuticals.csv")
 summary(pharma)
 str(pharma)
 sum(is.na(pharma))

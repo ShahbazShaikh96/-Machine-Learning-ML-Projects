@@ -23,7 +23,7 @@ library(corrplot)
 # Loading & Cleaning Data
 ```{r}
 # Loading the dataset
-cereals <- read.csv("/Users/shahbazshaikh/Downloads/Cereals.csv")
+cereals <- read.csv("Cereals.csv")
 
 # Initial data inspection
 cat("Original dataset dimensions:", dim(cereals), "\n")
